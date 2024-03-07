@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+body {
+  background-color: #69de33;
+  font-family: sans-serif;
+}
+.pomodoro {
+  width: 600px;
+  margin: 0px auto;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+header h2 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+header button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 120px;
+  text-align: center;
+  color: black;
+  border: none;
+  background-color: #82ff47;
+  font-weight: bold;
+}
+header button svg {
+  width: 20px;
+  height: 20px;
+}
+header .btns {
+  display: flex;
+  gap: 20px;
+}
+.time {
+  padding: 20px;
+  margin: 40px auto;
+  border-radius: 5px;
+  background-color: #82ff47;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.time .btns {
+  display: flex;
+  width: 400px;
+  margin: 0px auto;
+  justify-content: space-between;
+  font-weight: bold;
+  align-items: center;
+}
+.time .btns {
+  display: flex;
+  gap: 20px;
+}
+.time .btns button {
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 120px;
+  color: black;
+  justify-content: center;
+  border: none;
+  background-color: #60b538;
+}
+.timer {
+  text-align: center;
+  font-size: 136px;
+  color: black;
+  font-weight: bold;
+}
+.start {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 0px auto;
+  border: none;
+  background-color: black;
+  color: #9a2d48;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
